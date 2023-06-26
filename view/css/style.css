@@ -1,0 +1,41 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Tahoma;
+}
+.header{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.header h1{
+     font-size: 50px;
+}
+nav{
+    margin-bottom: 50px !important;
+}
+
+.home .adh2{
+    text-align: center;
+}
+.home .adh2 h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.adddm .tieudeadddm{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.adddm .tieudeadddm h2{
+    font-weight: bold;
+}
+.dsdm .tieudeds{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.dsdm .tieudeds h2{
+    font-weight: bold;
+}
+footer{
+    height: 200px;
+}

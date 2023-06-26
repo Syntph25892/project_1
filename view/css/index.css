@@ -1,0 +1,373 @@
+.ccontainer{
+    max-width: 100%;
+    background-color: #F9F8F5;
+}
+header{
+    background-color: #e0d1d1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.cart{
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    padding: 7px 0 0 0;
+    text-align: center;
+}
+.fulltrang{
+    margin-top: 100px;
+}
+.home{
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+}
+.left{
+    padding-right: 50px;
+}
+.right{
+    padding-left: 50px;
+}
+.spdacbiet{
+    margin: 0 20px;
+}
+.spdacbiet img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tieudespdb{
+    text-align: center;
+    background-color: aqua;
+    margin: 20px 0;
+    padding: 10px;
+}
+.tieudespdb h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.boxsp{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 30px;
+}
+.box1sp{
+    width: 120px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border: 2px solid #EBEBEB;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box1sp:hover .textspdb{
+    transform: translateY(0);
+}
+.textspdb{
+    width: 100%;
+    position: absolute;
+    transform: translateY(30%);
+    bottom: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    transition: ease-in-out;
+    transition: 0.5s;
+}
+.namesp{
+    padding-top: 20px;
+}
+.namesp a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.textspdbphu:hover{
+    color: black;
+    border: 2px solid red;
+    background-color: red;
+}
+.price p{
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}
+.textspdbphu{
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 7px 0;
+}
+.textspdb>a{
+    text-decoration: none;
+}
+.textspdb>a :hover{
+    background-color: red;
+    transition: 0.2s;
+}
+.iconspdb{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transform: translateX(170%);
+    transition: 0.5s;
+}
+.iconspdb .heart{
+    width: 30px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+.iconspdb .heart:hover{
+    background-color: red;
+}
+.iconspdb .eye{
+    width: 30px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    border-radius: 40px;
+}
+.iconspdb .eye:hover{
+    background-color: red;
+}
+.box1sp:hover .iconspdb{
+    transform: translateX(0%);
+}
+.top10{
+    margin: 0 20px;
+}
+.top10 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tieudetop10{
+    text-align: center;
+    background-color: aqua;
+    margin: 20px 0;
+    padding: 10px;
+}
+.tieudetop10 h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
+footer>h2{
+    color: #FFFFFF;
+    padding: 30px;
+}
+.dm{
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    margin-top: 20px;
+    background-color: #96d2e9;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+.boxdm{
+    border: 1px solid black;
+    padding: 0;
+}
+.boxdm ul{
+    padding: 0;
+}
+.boxdm ul li{
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(192, 188, 188, 0.521);
+}
+.boxdm ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.boxtop{
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    margin-top: 20px;
+    background-color: #96d2e9;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+.boxtop10{
+    border: 1px solid black;
+    padding: 0;
+}
+.boxtop10 ul{
+    padding: 0;
+}
+.boxtop10 ul li{
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(192, 188, 188, 0.521);
+}
+.boxtop10 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.boxtop10 img{
+    width: 50px;
+}
+ 
+
+/* Chi tiet sp */
+.chitietsp{
+    width: 1200px;
+    margin: 0 auto;
+}
+.ctleft{
+    margin-bottom: 100px;
+}
+.tieudectsp{
+    text-align: center;
+}
+.tieudectsp h1{
+    padding: 50px 0;
+}
+.thongtinsp{
+    gap: 50px;
+}
+.thongtinsp>.ctleft img{
+    width: 80%;
+}
+.hr>hr{
+    width: 1000px;
+    margin: 100px auto;
+}
+.binhluan{
+    width: 1100px;
+    margin: 100px auto;
+}
+.tieudebl h2{
+    font-size: 30px;
+}
+.ndbl{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.sanphamcungloai{
+    width: 1100px;
+    margin: 100px auto;
+}
+.sanphamcungloai img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.boxspcl{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    gap: 30px;
+}
+.tieudespcl{
+    margin-bottom: 100px;
+}
+
+/* sanpham */
+
+.trangsanpham{
+    display: grid;
+    grid-template-columns: 25% 60% 15%;
+}
+
+
+
+.dangky {
+    height: 100%;
+  }
+  
+.dangky {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+  }
+  
+  .form-signin {
+    max-width: 440px;
+    padding: 15px;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .anhdaidiendk{
+      float: left;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  /* tttk */
+
+  .thongtintaikhoan{
+      width: 1000px;
+      margin: 100px auto;
+  }
+  .tieudett{
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  .thongtin{
+      margin: 20px 0;
+  }
+
+  /* cart */
+  
+
+  .spcart{
+      height: 700px;
+      width: 1000px;
+      margin: 50px auto;
+  }
+
+  .ttdh{
+      width: 800px;
+      margin: 50px auto;
+  }
+  .phuongthuctt{
+    width: 800px;
+    margin: 50px auto;
+  }
+  .ttdonhang{
+    width: 800px;
+    margin: 50px auto;
+  }
+  .mybill{
+    width: 800px;
+    height: 1000px;
+    margin: 50px auto;
+  }
